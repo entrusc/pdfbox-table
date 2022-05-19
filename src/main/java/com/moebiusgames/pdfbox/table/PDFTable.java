@@ -255,6 +255,7 @@ public class PDFTable {
             cell.setFontColor(column.getHeadingFontColor());
             cell.setBackgroundColor(column.getHeadingBackgroundColor());
             cell.setFont(column.getHeadingFont());
+            cell.setFontSize(column.getHeadingFontSize());
         }
         return headingRow;
     }
